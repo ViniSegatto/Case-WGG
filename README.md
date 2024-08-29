@@ -50,21 +50,21 @@ O impacto dos países é variado, com o Brasil apresentando uma correlação lig
    
 O modelo RNN apresenta o maior RMSE entre os modelos, especialmente para o Brasil e Peru. Isso indica que este modelo é menos preciso e, portanto, menos adequado para ser implementado em produção.
 
-* Modelo de Regressão Linear
+2. Modelo de Regressão Linear
  * Brasil: RMSE = 0.0137
  * Peru: RMSE = 0.0897
  * Colombia/Ecuador: RMSE = 0.0342
    
 A Regressão Linear apresenta o menor RMSE para o Brasil, o que sugere que é o modelo mais preciso para esse país. Para Peru e Colombia/Ecuador, os RMSEs também são baixos, especialmente em comparação com o RNN e Decision Tree. A Regressão Linear oferece um bom equilíbrio entre os países, com um excelente desempenho no Brasil.
 
-* Modelo Decision Tree
+3. Modelo Decision Tree
  * Brasil: RMSE = 0.0303
  *  Peru: RMSE = 0.1046
  * Colombia/Ecuador: RMSE = 0.0214
    
 A Decision Tree apresenta um desempenho bom para Colombia/Ecuador, mas é menos precisa para o Brasil e Peru em comparação com a Regressão Linear. Embora seja competitiva, especialmente para Colombia/Ecuador, a Regressão Linear ainda supera a Decision Tree no geral.
 
-* Modelo Random Forest
+4. Modelo Random Forest
  * Brasil: RMSE = 0.0333
  * Peru: RMSE = 0.1207
  * Colombia/Ecuador: RMSE = 0.0192
