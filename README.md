@@ -43,7 +43,7 @@ O impacto dos países é variado, com o Brasil apresentando uma correlação lig
 
 ## Para decidir qual modelo deve ser utilizado na produção com base nos RMSEs apresentados para os três países (Brasil, Peru e Colombia/Ecuador), vamos analisar e comparar o desempenho de cada modelo.
 
-* Modelo RNN
+1. Modelo RNN
  * Brasil: RMSE = 0.2265
  * Peru: RMSE = 0.1915
  * Colombia/Ecuador: RMSE = 0.0757
